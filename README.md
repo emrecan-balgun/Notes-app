@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Image
 
-![v2](/photo.jpeg)
+![v2](/public/photo.jpg)
 
 ## Available Scripts
 
