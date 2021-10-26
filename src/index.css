@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: gainsboro;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  color: black;
+}
+
+.filterBtn {
+  border-radius: 0.5rem;
+  padding: 5px 15px;
+  border-style: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.container {
+  position: relative;
+}
+
+.styled {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-sizing: border-box;
+	width: 700px;
+	height: 180px;
+	border: 1px solid black;
+	padding: 15px;
+  border-radius: 0.5rem;
+  resize: none;
+}
+
+.addBtn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 16px;
+  background-color: #FFBF00;
+  color: black;
+  border-style: none;
+  border-radius: 0.5rem;
+  padding: 10px 25px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.colorPicker {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.colorPicker button {
+  border-radius: 1.25rem;
+  margin-right: 5px;
+  padding: 12px;
+  border-style: none;
+}
+
+.colorPicker button:active {
+  background-color: black;
+}
+
+.boxBg1 {
+  background-color: #F9F3DF;
+}
+
+.boxBg2 {
+  background-color: #CDF2CA;
+}
+
+.boxBg3 {
+  background-color: #FFDEFA;
+}
+
+.boxBg4 {
+  background-color: #FFC898;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: left;
+  line-height: 15px;
+  width: 700px;
+}
+
+.flexContainer div {
+  font-size: 14px;
+  color: black;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 10px;
+  width: 200px;
+  height: auto;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  border-radius: 0.5rem;
+  border-style: none;
+}
